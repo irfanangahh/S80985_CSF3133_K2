@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Profile</title>
+</head>
+<body>
+
+  <header>
+    <h1>Personal Profile</h1>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a> | <a href="#form">Form</a>
+  </nav>
+
+  <section id="profile">
+    <article>
+      <h2>My Information</h2>
+      <table border="1">
+        <tr>
+          <th>Field</th>
+          <th>Detail</th>
+          <th>Remarks</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>Ahmad Irfan</td>
+          <td>Student</td>
+        </tr>
+        <tr>
+          <td>Occupation</td>
+          <td>Undergraduate Student</td>
+          <td>Full-time</td>
+        </tr>
+        <tr>
+          <td>University</td>
+          <td>Universiti Malaysia Terengganu</td>
+          <td>Computer Science (Mobile Computing)</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <section id="form">
+    <h2>Registration Form</h2>
+    <form action="submit_form.php" method="post">
+
+      <label for="fname">Name:</label>
+      <input type="text" id="fname" name="name">
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <br><br>
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <br><br>
+
+      <label>Favorite hobbies:</label>
+      <input type="checkbox" id="hobby1" name="hobby1" value="Reading">
+      <label for="hobby1">Reading</label>
+      <input type="checkbox" id="hobby2" name="hobby2" value="Gaming">
+      <label for="hobby2">Watching Movie</label>
+      <input type="checkbox" id="hobby3" name="hobby3" value="Coding">
+      <label for="hobby3">Hiking</label>
+      <br><br>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 irfanangah</p>
+  </footer>
+
+</body>
+</html>
