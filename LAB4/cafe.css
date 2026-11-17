@@ -1,0 +1,44 @@
+/* navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1A5276;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:link, nav a:visited {
+    color: white;
+}
+/* menu item changes colour when mouse is over it */
+nav a:hover {
+    background-color: #E67E22;
+    color: white;
+}
+
+/* old price */
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* video fits small screens */
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* feedback form */
+.feedback-form {
+    background-color: #EAF2F8;
+    padding: 15px;
+    border: 1px solid #1A5276;
+    width: 90%;
+}

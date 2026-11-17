@@ -1,0 +1,96 @@
+/* page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F9F9;
+    margin: 0;
+}
+
+/* headings with text decoration */
+h1 {
+    text-decoration: overline;
+    text-align: center;
+    color: #1A5276;
+}
+h2 {
+    text-decoration: underline;
+}
+
+/* link states, must be in this order */
+a:link {color: #1A5276;}
+a:visited {color: #7D3C98;}
+a:hover {color: #E67E22;}
+a:active {color: #C0392B;}
+
+/* navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1A5276;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:link, nav a:visited {
+    color: white;
+}
+/* menu item changes colour when mouse is over it */
+nav a:hover {
+    background-color: #E67E22;
+    color: white;
+}
+nav a:active {
+    background-color: #C0392B;
+    color: white;
+}
+
+/* id selectors */
+#destinations {
+    width: 90%;
+    margin: auto;
+}
+#trip {
+    width: 90%;
+    margin: auto;
+}
+#video {
+    text-align: center;
+}
+
+/* class selectors */
+.card {
+    background-color: white;
+    border: 1px solid #1A5276;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+.new-price {
+    color: #C0392B;
+    font-weight: bold;
+}
+.caption {
+    font-style: italic;
+}
+.trip-form {
+    background-color: #EAF2F8;
+    padding: 15px;
+    border: 1px solid #1A5276;
+    width: 90%;
+}
+
+/* video fits small screens */
+video {
+    max-width: 100%;
+    height: auto;
+}

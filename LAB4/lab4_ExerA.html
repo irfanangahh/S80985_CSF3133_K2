@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Terengganu</title>
+
+<!-- external css -->
+<link rel="stylesheet" href="style.css">
+
+<!-- internal css for this page only -->
+<style>
+footer {
+    text-align: center;
+    background-color: #D6EAF8;
+    padding: 10px;
+}
+meter {
+    width: 200px;
+}
+</style>
+</head>
+<body>
+
+<!-- header -->
+<header>
+<h1>Visit Terengganu</h1>
+</header>
+
+<!-- navigation bar -->
+<nav>
+<ul>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#trip">Trip</a></li>
+</ul>
+</nav>
+
+<!-- destinations section -->
+<section id="destinations">
+<h2>Destinations</h2>
+
+<article class="card">
+<h3>Redang Island</h3>
+<p>Clear water and nice beaches for snorkelling.</p>
+<p>Promotion: <span class="old-price">RM 299</span> <span class="new-price">RM 199</span></p>
+</article>
+
+<article class="card">
+<h3>Kuala Terengganu</h3>
+<p>Visit the Crystal Mosque and try local food.</p>
+<p>Promotion: <span class="old-price">RM 150</span> <span class="new-price">RM 99</span></p>
+</article>
+
+<article class="card">
+<h3>Kenyir Lake</h3>
+<p>Big lake with waterfalls and jungle trips.</p>
+<p>Promotion: <span class="old-price">RM 250</span> <span class="new-price">RM 180</span></p>
+</article>
+
+<!-- seats meter -->
+<p>Trip seats filled: <meter min="0" max="40" value="28">28 of 40</meter> 28 / 40</p>
+</section>
+
+<!-- video section -->
+<section id="video">
+<h2>Watch Our Video</h2>
+<figure>
+<video width="400" height="300" controls>
+<source src="Terengganu.mp4" type="video/mp4">
+
+</video>
+<figcaption class="caption">Come and see the beauty of Terengganu</figcaption>
+</figure>
+</section>
+
+<!-- trip form section -->
+<section id="trip">
+<h2>Join Our Trip</h2>
+<form class="trip-form">
+<p>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+</p>
+<p>
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email">
+</p>
+
+<p>Traveller type:</p>
+<p>
+<label><input type="radio" name="type" value="student"> Student</label>
+<label><input type="radio" name="type" value="staff"> Staff</label>
+<label><input type="radio" name="type" value="public"> Public</label>
+</p>
+
+<p>Interests:</p>
+<p>
+<label><input type="checkbox" name="interest" value="islands"> Islands</label>
+<label><input type="checkbox" name="interest" value="food"> Food</label>
+<label><input type="checkbox" name="interest" value="culture"> Culture</label>
+<label><input type="checkbox" name="interest" value="nature"> Nature</label>
+</p>
+
+<p>
+<input type="submit" value="Submit">
+</p>
+</form>
+</section>
+
+<!-- footer -->
+<footer>
+<p>&copy; 2026 Visit Terengganu</p>
+<address>
+<a href="mailto:info@visitterengganu.com">info@visitterengganu.com</a>
+</address>
+</footer>
+
+</body>
+</html>
