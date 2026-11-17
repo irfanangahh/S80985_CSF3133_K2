@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab 4 Wonderbuuk</title>
+
+<!-- external css -->
+<link rel="stylesheet" href="style.css">
+
+<!-- internal css for this page only -->
+<style>
+#about {
+    width: 90%;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    background-color: #D6EAF8;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<!-- header -->
+<header>
+<h1>My Hobby Page</h1>
+</header>
+
+<!-- navigation bar -->
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#trip">Form</a></li>
+</ul>
+</nav>
+
+<!-- about section with articles -->
+<section id="about">
+<h2>About My Hobbies</h2>
+
+<article class="card">
+<h3>Gaming</h3>
+<p>I play games with my friends after class.</p>
+</article>
+
+<article class="card">
+<h3>Coding</h3>
+<p>I like to build small websites and apps.</p>
+</article>
+</section>
+
+<!-- video section with caption -->
+<section id="video">
+<h2>Watch Video</h2>
+<figure>
+<video width="400" height="300" controls>
+<source src="video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<figcaption class="caption">My video</figcaption>
+</figure>
+</section>
+
+<!-- form section -->
+<section id="trip">
+<h2>Form</h2>
+<form class="trip-form">
+<p>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name">
+</p>
+<p>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email">
+</p>
+
+<p>Gender:</p>
+<p>
+<label><input type="radio" name="gender" value="male"> Male</label>
+<label><input type="radio" name="gender" value="female"> Female</label>
+</p>
+
+<p>Favourite hobbies:</p>
+<p>
+<label><input type="checkbox" name="hobby" value="gaming"> Gaming</label>
+<label><input type="checkbox" name="hobby" value="coding"> Coding</label>
+<label><input type="checkbox" name="hobby" value="reading"> Reading</label>
+<label><input type="checkbox" name="hobby" value="sports"> Sports</label>
+</p>
+
+<p>
+<input type="submit" value="Submit">
+</p>
+</form>
+</section>
+
+<!-- footer -->
+<footer>
+<p>&copy; 2026 My Hobby Page</p>
+</footer>
+
+</body>
+</html>
