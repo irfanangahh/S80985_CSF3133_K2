@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: #2dd4bf;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    display: block;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 16px 24px;
+    border-bottom: 3px solid transparent;
+}
+
+nav li a:hover {
+    color: #0d9488;
+    background-color: #f0fdfa;
+    border-bottom: 3px solid #14b8a6;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    margin-top: 0;
+    color: #111827;
+    border-left: 5px solid #14b8a6;
+    padding-left: 12px;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #e5e7eb;
+    padding: 12px 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #111827;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f4f6;
+}
+
+tr:hover {
+    background-color: #ccfbf1;
+}
+
+footer {
+    background-color: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+}
